@@ -11,7 +11,6 @@
   inputs.src-jsutils-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-jsutils-0_1_2.owner = "kidandcat";
   inputs.src-jsutils-0_1_2.repo  = "jsutils";
-  inputs.src-jsutils-0_1_2.dir   = "";
   inputs.src-jsutils-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
